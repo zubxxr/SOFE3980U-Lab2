@@ -159,12 +159,17 @@ To test the web application, we have to
 	* Line 37 : checks that the attribute **name** within the template is set to the value **"World"**.
 	
 	![](images/sq2_9.jpg)
-   
-5. Run the test cases and deploy the web application
+
+5. Clean and build the application.
+	``` cmd
+    mvn clean install
+	```
+ 
+6. Run the test cases and deploy the web application
 	``` cmd
 	mvn test spring-boot:run
 	```
-	
+ 
 	![](images/sq2_10.jpg)
 
 ## API Controller Using Spring Boot
