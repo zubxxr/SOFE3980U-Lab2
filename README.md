@@ -89,7 +89,11 @@ The project will be updated to use the [Spring-Boot](https://spring.io/projects/
   	![](images/sq2_16.jpg)
 
   
-* To run the application, run the following command
+* First, clean the application.
+	``` cmd
+    mvn clean install
+	```
+* Next, run the application, run the following command
 	``` cmd
     mvn spring-boot:run
 	```
