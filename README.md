@@ -79,7 +79,7 @@ The project will be updated to use the [Spring-Boot](https://spring.io/projects/
   
 	The updated pom file should look like
 
-  	![](images/sq2_16.png)
+  	![](images/)
 
   
 * To run the application, run the following command
