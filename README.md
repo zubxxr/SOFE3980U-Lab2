@@ -76,10 +76,17 @@ The project will be updated to use the [Spring-Boot](https://spring.io/projects/
     </dependency>	
 	```
 * Lastly, update the JUnit version to 4.13.2.
-  
+  	``` xml
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+	```
 	The updated pom file should look like
 
-  	![](images/)
+  	![](images/sq2_16.jpg)
 
   
 * To run the application, run the following command
