@@ -19,12 +19,22 @@ In the previous milestone, you got some experience with using Maven. In this mil
 
 ## Create a WebApp Project
 * You can create a web application project using the maven-archetype-webapp template (**DarchetypeArtifactId**) by running the following command in the command window in the path you want to generate the project in.
+* **Windows**
 	``` cmd
     mvn archetype:generate ^
     	-DgroupId=com.ontariotechu.sofe3980U ^
     	-DartifactId=BinaryCalculatorWebapp ^
     	-Dversion=1.0.0 ^
     	-DarchetypeArtifactId=maven-archetype-webapp ^
+    	-DinteractiveMode=false
+	```
+ * **Linux**
+	``` cmd
+    mvn archetype:generate \
+    	-DgroupId=com.ontariotechu.sofe3980U \
+    	-DartifactId=BinaryCalculatorWebapp \
+    	-Dversion=1.0.0 \
+    	-DarchetypeArtifactId=maven-archetype-webapp \
     	-DinteractiveMode=false
 	```
 * The command will generate a folder called **BinaryCalculatorWebapp**. The structure of the folder is shown in the following figure
