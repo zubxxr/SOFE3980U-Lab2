@@ -1,10 +1,18 @@
-# Milestone 2: Implementing and Testing Web Application and API Service using Apache Maven and Spring Boot
+# Lab 2: Implementing and Testing Web Application and API Service using Apache Maven and Spring Boot
 In the previous milestone, you got some experience with using Maven. In this milestone, with the help of Maven, you will be guided in building a web application and an API service based on the binary class you implemented in the first milestone.
 
-## Repository:
-[https://github.com/GeorgeDaoud3/SOFE3980U-Lab2](https://github.com/GeorgeDaoud3/SOFE3980U-Lab2)
+## Table of Contents
+1. [Objectives](#objectives)  
+2. [Create a WebApp Project](#create-a-webapp-project)  
+3. [Adding the Spring Boot Framework](#adding-the-spring-boot-framework)  
+4. [Understanding the Spring-Boot Based Web Application](#understanding-the-spring-boot-based-web-application)  
+5. [Testing the Web Application](#testing-the-web-application)  
+6. [API Controller Using Spring Boot](#api-controller-using-spring-boot)  
+7. [The Web Application Version of the Binary Calculator](#the-web-application-version-of-the-binary-calculator)  
+8. [Design](#design)  
+9. [Deliverables](#deliverables)  
 
-## Objectives:
+## Objectives
 1. Use Maven to build a web application
 2. Learn how to use Spring Boot to build and test Web applications.
 3. Learn how to use Spring Boot to build and test API service.
@@ -28,7 +36,7 @@ In the previous milestone, you got some experience with using Maven. In this mil
     ``` cmd
     cd BinaryCalculatorWebapp
     ```
-## Adding the Spring Boot framework
+## Adding the Spring Boot Framework
 The project will be updated to use the [Spring-Boot](https://spring.io/projects/spring-boot) framework instead of the default framework. Thus, both **index.jsp** and **web.xml** will not be functional anymore. In this section, the web application will be set up. In the next section, we will go through the code to understand how the web application works.  
 * Create the following folder and subfolder **java** and **java/com.ontariotechu.sofe3980U** within **src/main/** folder.
 * Copy the two files named **HelloController.java** and **Application.java** from the GitHub repository to the path **src/main/java/com.ontariotechu.sofe3980U** in your project.
@@ -77,7 +85,7 @@ The project will be updated to use the [Spring-Boot](https://spring.io/projects/
     
     ![](images/sq2_5a.jpg)
 
-## Understanding the Spring-Boot based Web application
+## Understanding the Spring-Boot Based Web Application
 * **Application.java** contains the **main** function that runs the web application
 * **HelloController.java** is a view controller that redirects an HTTP request to the HTML template file to generate a customized HTML file.
 * The first file in the following figure shows **HelloController.java** in which 
@@ -182,12 +190,12 @@ The API controller works similar to the view Controller but it returns a data (s
 	* [http://localhost:8080/add_json?operand1=111&operand2=1010](http://localhost:8080/add_json?operand1=111&operand2=1010)	 
 * **BinaryControllerTest.java** contains three test cases for the Web application while **BinaryAPIControllerTest.Java** provides two test cases for the API service.
 
-## Design:
+## Design
 * Add three more test cases for the binary web application.
 * Add three more test cases for the binary API service.
 * Implement other operators ( *, &, I) in both the web application and the API services. To do so, replace the Binary.java file with that you have implemented in the first milestone. You don’t need to update any HTML files. Only the java files should be updated.
 *  Add test cases for each newly implemented operations. The test cases should cover almost all possible cases.
 
-## Deliverables:
+## Deliverables
 1. A report consists of a summary of test cases, its target (class/function), and its purpose and a snap shot of the test summary provided by Maven. It should contain a link to a GitHub link for you project.
 2. An audiable video of about 5 minutes of the running application and service showing almost all available functionalities.   
