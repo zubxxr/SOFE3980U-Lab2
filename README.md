@@ -1,5 +1,5 @@
 # Lab 2: Implementing and Testing Web Application and API Service using Apache Maven and Spring Boot
-In the previous milestone, you got some experience with using Maven. In this milestone, with the help of Maven, you will be guided in building a web application and an API service based on the binary class you implemented in the first milestone.
+In the previous lab, you got some experience with using Maven. In this lab, with the help of Maven, you will be guided in building a web application and an API service based on the binary class you implemented in the first lab.
 
 ## Table of Contents
 1. [Objectives](#objectives)  
@@ -203,7 +203,7 @@ The API controller works similar to the view Controller but it returns a data (s
 ## Design
 * Add three more test cases for the binary web application.
 * Add three more test cases for the binary API service.
-* Implement other operators ( *, &, I) in both the web application and the API services. To do so, replace the Binary.java file with that you have implemented in the first milestone. You don’t need to update any HTML files. Only the java files should be updated.
+* Implement other operators ( *, &, I) in both the web application and the API services. To do so, replace the Binary.java file with that you have implemented in the first lab. You don’t need to update any HTML files. Only the java files should be updated.
 *  Add test cases for each newly implemented operations. The test cases should cover almost all possible cases.
 
 ## Deliverables
