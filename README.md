@@ -89,7 +89,7 @@ The project will be updated to use the [Spring-Boot](https://spring.io/projects/
   	![](images/sq2_16.jpg)
 
   
-* First, clean the application.
+* First, clean and build the application.
 	``` cmd
     mvn clean install
 	```
