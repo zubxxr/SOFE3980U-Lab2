@@ -1,6 +1,9 @@
 # Lab 2: Implementing and Testing Web Application and API Service using Apache Maven and Spring Boot
 In the previous lab, you got some experience with using Maven. In this lab, with the help of Maven, you will be guided in building a web application and an API service based on the binary class you implemented in the first lab.
 
+## Repository Link
+https://github.com/zubxxr/SOFE3980U-Lab2
+
 ## Table of Contents
 1. [Objectives](#objectives)  
 2. [Create a WebApp Project](#create-a-webapp-project)  
