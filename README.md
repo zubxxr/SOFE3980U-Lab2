@@ -229,5 +229,5 @@ The API controller works similar to the view Controller but it returns a data (s
 *  Add test cases for each newly implemented operations. The test cases should cover almost all possible cases.
 
 ## Deliverables
-1. A report consists of a summary of test cases, its target (class/function), and its purpose and a snap shot of the test summary provided by Maven. It should contain a link to a GitHub link for you project.
-2. An audiable video of about 5 minutes of the running application and service showing almost all available functionalities.   
+1. A report that consists of a summary of test cases, its target (class/function), and its purpose and a snap shot of the test summary provided by Maven. It should contain a link to a GitHub link for your project and a link to your video.
+2. An audible video of about 5 minutes of the running application and service showing almost all available functionalities.   
